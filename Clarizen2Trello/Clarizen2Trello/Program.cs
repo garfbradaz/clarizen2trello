@@ -12,7 +12,7 @@ namespace Clarizen2Trello
         static void Main(string[] args)
         {
             ///Put your    username and password here.
-            Bradaz.Clarizen.API.RestClient client = new Bradaz.Clarizen.API.RestClient("garfbradaz","Poohead26@");
+            Bradaz.Clarizen.API.RestClient client = new Bradaz.Clarizen.API.RestClient("username","password");
 
 
             client.Data.Query.Select("Name,C_TrelloAPIKey")
